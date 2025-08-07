@@ -1,3 +1,4 @@
+
 import './App.css'
 import Hero from './components/Hero'
 import Contact from './components/Contact'
@@ -8,13 +9,12 @@ function App() {
 
   return (
     <div>
-    <Hero/>
-    <Contact/>
-    <Aboutme/>
-    <Skill/>
-
+      <Hero />
+      <Contact />
+      <Aboutme />
+      <Skill />
     </div>
   )
 }
 
-export default App;
+export default App

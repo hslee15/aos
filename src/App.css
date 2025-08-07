@@ -5,6 +5,9 @@ section {
   align-items: center;
   padding: 0 50px;
 }
+ul {
+  list-style-type: none;
+}
 section:nth-child(even) {
   background-color: seashell;
     justify-content: flex-end;

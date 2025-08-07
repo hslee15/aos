@@ -1,4 +1,4 @@
-.Contact{
+section.Contact{
     justify-content: center;
     text-align: center;
     gap: 50px;
@@ -7,15 +7,17 @@
 .t-wrap p{
     max-width: none;
 }
+
 .contact-list{
     display: flex;
     gap: 30px;
 }
 .contact-list li{
-    width: 300px;
+    /* width: 300px; */
     background-color: salmon;
-    padding: 100px 0;
-    color: white;
+    padding: 100px 50px;
+    color: #fff;
+    width: 400px;
     font-size: 30px;
 }
 .contact-list li *{
